@@ -1,44 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Villa of the Papyri (Book App)
 
-## Available Scripts
+Pronunciation (pah-pee-ree)
 
-In the project directory, you can run:
+Papyri is an easy way to keep track of all your favorite books. Organize them in 'bookshelfs' depending on your Reading Status (Have Read, Reading Now, Read Later, etc.) and have your books filtered by genre within each Reading Status.
 
-### `yarn start`
+## Quick History
+The Villa of the Papyri (scrolls) was an ancient Roman villa in Herculaneum known for its architecture and large amounts of art, sculptures, and scrolls. It was covered in ash when Mt. Vesuvius erupted in AD 79. It was later discovered around ~1750 and contained over 1,800 papyrus scrolls. It is the only surviving library from the Graeco-Roman world that exists in its entirety.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+For more info visit: https://en.wikipedia.org/wiki/Villa_of_the_Papyri
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To see what it looked like: https://www.youtube.com/watch?v=milyoc0hDFA
 
-### `yarn test`
+## Application
+The purpose of this application is to store and keep track of your own personal library. If you want to amass a large library like that of the Villa of the Papyri, this will be a good place to organize and maintain your collection.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problem I am Solving
+The problem is I have hundreds (or a thousand maybe) books and no way to organize and track them. I also have hundreds more on a saved shopping cart somewhere. I want to organize all my books by Reading Status (Have Read, Reading Now, Read Later, etc.) and then have those books organized by genre.
 
-### `yarn build`
+I could brute force this and create an excel spreadsheet and manually type in all the books, create categories, grab pictures, etc. and store it that way. That will be very inefficient.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Instead, I could create an app, use an API, and very quickly and efficiently have them organized in the way that makes sense. I can also store books I want to buy and continue to add to my library.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Technologies 
+FrontEnd:
+* React
+* Redux
+* React-Router
+* Axios
+* Styled-Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+API:
+* Google Books API
 
-### `yarn eject`
+BackEnd:
+* NodeJS/ Express Framework
+* MongoDB (DB)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_*OR*_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Google Firebase
+* Google Firestore (DB)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Hosting:
+* Netlify
+* Heroku
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_*OR*_
 
-## Learn More
+* Google Firebase
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Technologies listed could change and will be updated.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## How To Use
+Directions with links will be coming soon along with a link to the application.
