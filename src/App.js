@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import Homepage from './pages/Homepage';
 import GlobalStyle from './styles/globalStyles';
 
 function App() {
   return (
     <div>
       <GlobalStyle />
-      <h1 className='headline'>Papyri</h1>
+      <Homepage />
     </div>
   );
 }
