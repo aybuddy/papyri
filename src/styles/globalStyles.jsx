@@ -2,9 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
 
 :root {
 
@@ -13,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
   --sand: #FFC069;
   --stone: #EFEFEF;
   --black: #0f0d0c;
+  --beige: #DBD0C0;
+  --tan: #FAEEE0;
+  --tanDarker: #F9E4C8;
 
   // Font Sizes
   --h1: 6.4rem;
@@ -59,7 +60,6 @@ body {
   overflow-x: hidden;
   font-family: var(--sans-serif);
   font-weight: 400;
-  background-color: var(--black);
   font-size: 1.6rem;
 }
 

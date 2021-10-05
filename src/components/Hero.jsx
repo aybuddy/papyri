@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/app.scss';
-import bgImage1 from '../assets/images/andrew-solomon-new-york-city-townhouse-0317-9.jpg';
-import bgImage2 from '../assets/images/villa-papyri-min.jpg';
+import bgImage1 from '../assets/images/townhouse-library.jpg';
 
 const Hero = () => {
   return (
