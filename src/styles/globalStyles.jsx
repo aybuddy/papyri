@@ -32,8 +32,8 @@ const GlobalStyle = createGlobalStyle`
   --smallestResponsiveHeading: clamp(3.6rem, calc(6.4 / 123 * 100vw), 6.4rem);
 
   --responsiveParagraph: clamp(1.6rem, calc(2.4 / 123 * 100vw), 2.4rem);
-  --largeResponsiveParagraph: clamp(1.6rem, calc(3.6 / 123 * 100vw), 3.6rem);
-  --largestResponsiveParagraph: clamp(2.4rem, calc(4.8 / 123 * 100vw), 4.8rem);
+  --largeResponsiveParagraph: clamp(2.4rem, calc(3.6 / 123 * 100vw), 3.6rem);
+  --largestResponsiveParagraph: clamp(3.6rem, calc(4.8 / 123 * 100vw), 4.8rem);
 
   // Fonts
   --serif: 'Playfair Display', Georgia, serif;
@@ -88,22 +88,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: var(--largestResponsiveHeading);
+  font-size: var(--largestResponsiveParagraph);
 }
 h2 {
-  font-size: var(--largeResponsiveHeading);
+  font-size: var(--largestResponsiveParagraph);
 }
 h3 {
-  font-size: var(--mediumResponsiveHeading);
+  font-size: var(--largestResponsiveParagraph);
 }
 h4 {
-  font-size: var(--smallResponsiveHeading);
+  font-size: var(--largeResponsiveParagraph);
 }
 h5 {
-  font-size: var(--smallerResponsiveHeading);
+  font-size: var(--largeResponsiveParagraph);
 }
 h6 {
-  font-size: var(--smallestResponsiveHeading);
+  font-size: var(--largeResponsiveParagraph);
 }
 
 p, li {
@@ -112,7 +112,7 @@ p, li {
 }
 
 p {
-  font-size: var(--largeResponsiveParagraph);
+  font-size: var(--responsiveParagraph);
 }
 
 li {

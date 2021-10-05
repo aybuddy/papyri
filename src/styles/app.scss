@@ -1,5 +1,6 @@
 @import './hero.scss';
 @import './input.scss';
+@import './bookList.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
@@ -9,11 +10,6 @@
   .wrapper {
     max-width: 1230px;
     padding: 0 1%;
-  }
-
-  .book-image {
-    height: 250px;
-    width: 250px;
   }
 }
 // @media screen and (min-width: 320px) {
