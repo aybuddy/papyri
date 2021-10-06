@@ -4,7 +4,7 @@ import bgImage1 from '../assets/images/townhouse-library.jpg';
 
 const Hero = () => {
   return (
-    <div
+    <section
       className='hero-image'
       style={{
         backgroundImage: `linear-gradient(0deg, rgba(15,13,12,0.8) 50%, rgba(255,192,105,0.8) 100%), url(${bgImage1})`,
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className='hero-text-container'>
         <h1 className='hero-text-headline'>Papyri</h1>
       </div>
-    </div>
+    </section>
   );
 };
 

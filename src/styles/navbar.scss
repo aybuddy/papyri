@@ -1,0 +1,22 @@
+.nav-container {
+  height: 100px;
+  // background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
+
+  .logo-container {
+    height: 50px;
+    width: 50px;
+  }
+
+  .page-links,
+  .user-links {
+    display: flex;
+
+    li {
+      padding: 0 24px;
+    }
+  }
+}
