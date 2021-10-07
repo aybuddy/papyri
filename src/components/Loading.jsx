@@ -7,8 +7,8 @@ const Loading = () => {
     <div className='loading-container'>
       <Loader
         className='loader'
-        type='Grid'
-        color='#A45D5D'
+        type='TailSpin'
+        color='#F9E4C8'
         height={250}
         width={250}
       />
