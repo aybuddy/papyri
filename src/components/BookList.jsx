@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import notAvailableImage from '../assets/images/not-available.png';
 import '../styles/app.scss';
 
@@ -37,6 +38,9 @@ const BookList = ({ books }) => {
                 <p>{book.volumeInfo.publishedDate}</p>
               </div>
               <div className='button-container'>
+                <Link className='btn' to={`/book/${book.id}`}>
+                  View Book
+                </Link>
                 <button className='btn'>Add To Library</button>
               </div>
             </div>
