@@ -29,9 +29,6 @@ const BookDetail = ({ book }) => {
         <p>{book.volumeInfo.publishedDate}</p>
       </div>
       <div className='button-container'>
-        <Link className='btn' to={`/book/${book.id}`}>
-          View Book
-        </Link>
         <button className='btn'>Add To Library</button>
       </div>
     </div>

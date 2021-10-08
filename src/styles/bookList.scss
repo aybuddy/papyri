@@ -30,6 +30,10 @@
   }
 
   .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     .btn {
       display: block;
       margin: 24px auto;
@@ -41,6 +45,8 @@
       border: solid 1px var(--brown);
       background-color: var(--brown);
       color: var(--stone);
+    }
+    .button-link {
     }
   }
 }
